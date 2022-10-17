@@ -1,0 +1,68 @@
+/** elements **/
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: underline 2px #ffa500;
+}
+
+body {
+	background: url("img/bg.gif") repeat ghostwhite;
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	font-size: 1em;
+}
+
+label, input {
+	margin-bottom: 1em;
+	width: 25%;
+}
+
+header {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+main {
+	width: 50%;
+}
+
+/** classes **/
+
+.orange-headings {
+	color: #ffa500;
+}
+
+/** ids **/
+
+#container {
+	display: grid;
+	margin: 0 auto;
+}
+
+#header-left {
+	grid-column: 1/6;
+}
+
+#header-right {
+	grid-column: 6/6;
+}
+
+#logo {
+	min-width: 50%;
+}
+
+#news {
+	background: whitesmoke;
+	border-left: solid #ffa500 1em;
+	padding: 1em;
+	width: 50%;
+}
+
+#orange-banner {
+	background: #ffa500;
+	width: 50%;
+	padding: 1em;
+}
